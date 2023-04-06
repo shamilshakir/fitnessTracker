@@ -5,12 +5,12 @@
                 <label for="date">Date</label>
                 <input class="form-control" formControlName="date" type="text">
                 <label for="exercise">Exercise</label>
-                <input class="form-control" formControlName="entry" type="text">
+                <input class="form-control" formControlName="exercise" type="text">
                 <label for="duration">Duration</label>
-                <input class="form-control" formControlName="entry" type="text">
+                <input class="form-control" formControlName="duration" type="text">
                 <label for="calories">Calories</label>
-                <input class="form-control" formControlName="entry" type="text">
-            </div>
+                <input class="form-control" formControlName="calories" type="text">
+              </div>
             <button [disabled]="!diaryForm.valid" type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
