@@ -1,0 +1,23 @@
+<h2>Welcome to Fitness Tracker</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Exercise</th>
+            <th>Duration</th>
+            <th>Calories burned</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let diaryEntry of diaryEntries">
+            <td>{{diaryEntry.date}}</td>
+            <td>{{diaryEntry.exercise}}</td>
+            <td>{{diaryEntry.duration}}</td>
+            <td>{{diaryEntry.calories}}</td>
+            <td>
+                <button class="btn btn-primary">Edit</button>
+                <button class="btn btn-danger" (click)="onDelete(diaryEntry?.id ?? '')">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
