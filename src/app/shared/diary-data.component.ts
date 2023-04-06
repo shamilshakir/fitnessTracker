@@ -34,11 +34,11 @@ export class DiaryDataService{
     getDiaryEntries(){
         this.http.get<{diaryEntries: any}>('http://localhost:3000/diary-entries')
         .pipe(map((responseData) => {
-          return responseData.diaryEntries.map((entry: {date: string; exercise: string; exerciseDuration: string; calories: string; _id: string}) => {
+          return responseData.diaryEntries.map((entry: {date: string; exercise: string; duration: string; calories: string; _id: string}) => {
             return {
               date: entry.date,
               exercise: entry.exercise,
-              duration: entry.exerciseDuration,
+              duration: entry.duration,
               calories: entry.calories,
               id: entry._id
             }
