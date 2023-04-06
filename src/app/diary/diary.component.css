@@ -28,7 +28,8 @@ h2 {
   }
   
   .container {
-    background: linear-gradient(to bottom, #eaedf0e6,#97a2ad);
+    background-image: url('src/assets/img/bg.jpg');
+    background-size: cover;
     
   }
   

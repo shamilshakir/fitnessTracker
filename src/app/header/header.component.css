@@ -1,5 +1,5 @@
-*{
-    background: linear-gradient(to bottom right, #f5f5f5, #e5e5e5);
+.navbar-default{
+    background: linear-gradient(90deg,  rgb(255, 255, 255), rgb(239, 244, 244));
 }
 .navbar-brand{
     color: #D31212;
