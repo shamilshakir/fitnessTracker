@@ -1,7 +1,16 @@
-div {
-    background-color: rgb(218, 217, 225);
-    color: rgb(120, 220, 220);
+*{
+    background: linear-gradient(to bottom right, #f5f5f5, #e5e5e5);
 }
-a{
-    color:black;
+.navbar-brand{
+    color: #D31212;
+    font-style: italic;
+    font-weight: bold;
 }
+
+img{
+    height: 60px;  
+    width: 60px;  
+    
+   
+}
+

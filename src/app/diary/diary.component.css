@@ -1,3 +1,50 @@
+
 button{
     margin-left: 10px;
 }
+
+h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 1px 1px #ccc;
+    margin-bottom: 50px;
+  }
+
+  h2 span {
+    color: #D31212;
+  }
+
+  table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    background: linear-gradient(to bottom, #eaedf0e6,#97a2ad);
+    
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background: linear-gradient(to bottom right, #f2f4f4, #e9fafc);
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+
+  
